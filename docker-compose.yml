@@ -4,7 +4,7 @@ services:
   nginx:
     # 镜像:版本
     image: nginx:latest 
-    container_name: my_nginx  #这个名字是不能重复的
+    container_name: vite-project  #这个名字是不能重复的
     # 映射容器80端口到本地80端口
     ports:
      - "6000:80"
